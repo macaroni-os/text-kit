@@ -1,0 +1,9 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=A collection of Polish translations of Linux manual pages
+EAPI=7
+HOMEPAGE=https://sourceforge.net/projects/manpages-pl/
+KEYWORDS=*
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/manpages-pl/manpages-pl-0.7.tar.bz2
+_md5_=ce44a60cbc92e91fb0349b75622f85ca
