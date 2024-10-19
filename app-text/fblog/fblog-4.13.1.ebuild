@@ -6,8 +6,8 @@ inherit cargo
 
 DESCRIPTION="Small command-line JSON Log viewer"
 HOMEPAGE="https://github.com/brocode/fblog"
-SRC_URI="https://github.com/brocode/fblog/tarball/db4d6e4c85b7a721dadf467b6cbc0144918b0eb8 -> fblog-4.13.0-db4d6e4.tar.gz
-https://distfiles.macaronios.org/0a/46/0d/0a460d1db6866da54ca350baa48b16970af7cc6bc499cc780a7c603a79a00a0424d8ea4fd31f42615a16a1cfcf1e48b0f03918cf89c80662ff185d07c33c627d -> fblog-4.13.0-funtoo-crates-bundle-af581006f28a2e07637b6c1803f9e9dcf78a384e3cddd1e330a2eb9296170aaacaf312f9a86bee8c3fe67816ed4eb2609fa0d622beb24be89201646b320fec2f.tar.gz"
+SRC_URI="https://github.com/brocode/fblog/tarball/b0ce9dd644c850f5da044d62abfda09d25964392 -> fblog-4.13.1-b0ce9dd.tar.gz
+https://distfiles.macaronios.org/57/f2/45/57f245f301034f2f6f7349681cf7eb611d86d64dd73906ba2c1a4d27190ee460a94da556c1e296813b4f85bc34a76f30d8df8b9a7d91db5f3ae31a719a65f556 -> fblog-4.13.1-funtoo-crates-bundle-af581006f28a2e07637b6c1803f9e9dcf78a384e3cddd1e330a2eb9296170aaacaf312f9a86bee8c3fe67816ed4eb2609fa0d622beb24be89201646b320fec2f.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense WTFPL-2 ZLIB"
 SLOT="0"
