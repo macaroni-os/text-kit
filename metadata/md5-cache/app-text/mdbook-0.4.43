@@ -1,0 +1,12 @@
+BDEPEND=>=virtual/rust-1.37.0
+DEFINED_PHASES=compile configure install test unpack
+DESCRIPTION=Create a book from markdown files
+EAPI=7
+HOMEPAGE=https://rust-lang.github.io/mdBook/
+IUSE=doc debug
+KEYWORDS=*
+LICENSE=MPL-2.0 CC-BY-4.0 OFL-1.1 Apache-2.0 BSD ISC MIT Unicode-DFS-2016 || ( Artistic-2 CC0-1.0 )
+SLOT=0
+SRC_URI=https://github.com/rust-lang/mdBook/tarball/74b2c79d46df45ab9c196646f98339dd7e0c00c3 -> mdBook-0.4.43-74b2c79.tar.gz https://distfiles.macaronios.org/1f/56/31/1f56312e78d3a1a755e0a2f370a8320441747e6373b61e4f48af45dcb806fdc3ad85ba5c1b890b74fd25f12063a158e0a527bd5dc05bc5dadb3e947f69320471 -> mdbook-0.4.43-funtoo-crates-bundle-5d5d4e7c83fd31079e90d1bcccf62f6be4abf27f1a4db08ce64003a3f33ae116171dcd7a94189c9fc2e5c9d955c665edd691e43d2cf55b30fefdcaf7d4e5d8d9.tar.gz
+_eclasses_=cargo	a3e90d3e6ca8541d967cff212149cffc	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=ad62b47ccc07f347d5c7c816bc7065fd
