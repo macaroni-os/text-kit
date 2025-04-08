@@ -6,9 +6,9 @@ inherit cargo
 
 DESCRIPTION="Create a book from markdown files"
 HOMEPAGE="https://rust-lang.github.io/mdBook/"
-SRC_URI="https://github.com/rust-lang/mdBook/tarball/07b25cdb643899aeca2307fbab7690fa7eeec36b -> mdBook-0.4.47-07b25cd.tar.gz
-https://distfiles.macaronios.org/e6/3f/ca/e63fca144f36e32a05afb053bc9770ca9b1594979e40114493c6176f996a68bf6e1db961437631424d96e1c1547ee2f703a2a8a79817572c6b77a56cf133ce9f -> mdbook-0.4.47-funtoo-crates-bundle-1832443b4de3690f8f5c9857923492943c4037e0690a4e06aef27df9dfbbde4308e1195de9550f959800caa8c20e5223d370bfb0096becaa8497c70e9dcdd4ab.tar.gz"
-S="${WORKDIR}/rust-lang-mdBook-07b25cd"
+SRC_URI="https://github.com/rust-lang/mdBook/tarball/b7a27d2759e80d804a33a4bc9c31b2b6863a5cb2 -> mdBook-0.4.48-b7a27d2.tar.gz
+https://distfiles.macaronios.org/11/7a/09/117a09e7ab300c906064275589f60742730a470aecd8e89da3add9b6cfa2e6fba50b50e8a17e32412efd3f0606b0c30fae9a3ed4ce0a85851299848833f83a38 -> mdbook-0.4.48-funtoo-crates-bundle-1832443b4de3690f8f5c9857923492943c4037e0690a4e06aef27df9dfbbde4308e1195de9550f959800caa8c20e5223d370bfb0096becaa8497c70e9dcdd4ab.tar.gz"
+S="${WORKDIR}/rust-lang-mdBook-b7a27d2"
 
 # CC-BY-4.0/OFL-1.1: embeds fonts inside the executable
 LICENSE="MPL-2.0 CC-BY-4.0 OFL-1.1"
