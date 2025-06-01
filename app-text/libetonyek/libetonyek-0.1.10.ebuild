@@ -2,7 +2,7 @@
 
 EAPI=7
 
-MDDS_VER="2.0"
+MDDS_VER="2.1"
 
 DESCRIPTION="Library parsing Apple Keynote presentations"
 HOMEPAGE="https://wiki.documentfoundation.org/DLP/Libraries/libetonyek"
