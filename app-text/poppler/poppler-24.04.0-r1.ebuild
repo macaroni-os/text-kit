@@ -19,7 +19,7 @@ IUSE="boost cairo cjk curl +cxx debug doc +introspection +jpeg +jpeg2k +lcms nss
 RESTRICT="test"
 
 BDEPEND="
-	dev-util/glib-utils
+	dev-libs/glib:2
 	virtual/pkgconfig
 "
 DEPEND="
