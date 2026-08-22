@@ -35,7 +35,7 @@ src_prepare() {
 }
 
 src_configure() {
-	append-cxxflags -std=c++14
+	append-cxxflags -std=c++17
 
 	local myeconfargs=(
 		--disable-werror
