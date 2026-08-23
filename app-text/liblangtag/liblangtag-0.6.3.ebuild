@@ -40,7 +40,7 @@ src_prepare() {
 	if [[ -d docs/html ]]; then
 		rm -r docs/html || die "Failed to remove existing gtk-doc"
 	fi
-	sed -e "s|#include <libxml/tree.h>|#include <stdlib.h>\n#include <src_configurelibxml/tree.h>|g" \
+	sed -e "s|#include <libxml/tree.h>|#include <stdlib.h>\n#include <libxml/tree.h>|g" \
 		-i liblangtag/lt-xml.h
 }
 
